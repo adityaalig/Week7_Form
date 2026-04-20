@@ -48,12 +48,8 @@ export default function RegisterScreen({ navigation }) {
       }
       try {
         await new Promise(r => setTimeout(r, 1500)); 
-        
-        // MODIFIKASI: Alert berhasil dihapus, langsung pindah ke Home.
-        // Kita menggunakan 'replace' agar user tidak bisa menekan tombol 
-        // "Back" di HP mereka untuk kembali ke form register ini.
         navigation.replace('Home');
-
+        
       } catch (error) {
         Alert.alert('Error', 'Terjadi kesalahan saat mendaftar.');
       } finally {
