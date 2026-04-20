@@ -1,5 +1,7 @@
 ## Screenshot Aplikasi
 
-<img src="./screenshots/login.png" width="300" /> 
-<img src="./screenshots/register.png" width="300" />
-<img src="./screenshots/home.png" width="300" />
+<p align="center">
+  <img src="./screenshots/login.jpeg" width="300" alt="Login Screen" />
+  <img src="./screenshots/register.jpeg" width="300" alt="Register Screen" />
+  <img src="./screenshots/home.jpeg" width="300" alt="Home Screen" />
+</p>
